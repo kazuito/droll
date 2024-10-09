@@ -32,7 +32,7 @@ export default function Home() {
     <main className="grid min-h-[100dvh] place-content-center">
       <button
         className={clsx(
-          "py-4 px-10 rounded-full font-semibold border-2 border-white",
+          "py-4 px-10 rounded-full font-semibold border border-white transition-transform hover:scale-[1.03] active:scale-100",
           rolling
             ? "bg-transparent"
             : "bg-white text-black"
